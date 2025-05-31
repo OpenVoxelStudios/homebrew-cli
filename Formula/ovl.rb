@@ -7,6 +7,7 @@ class Ovl < Formula
   head "https://github.com/OpenVoxelStudios/CLI.git", branch: "main"
 
   depends_on "rust" => :build
+  depends_on "cmake" => :build
 
   def install
     system "cargo", "install", "--locked", "--root", prefix, "--path", "."
