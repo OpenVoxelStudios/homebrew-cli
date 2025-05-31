@@ -2,7 +2,7 @@ class Ovl < Formula
   desc "OpenVoxel Launcher - Command-line interface for OpenVoxel Studios"
   homepage "https://github.com/OpenVoxelStudios/CLI"
   url "https://github.com/OpenVoxelStudios/CLI/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "98ed5631bac567109609678018bd7d7126321ef20307273f7bfbb0f94617513f"
+  sha256 "a96c01a0ac5501f3ebaaa991c2c461532d22e1354d7f89af1ee45c583d8f3207"
   license "MIT"
   head "https://github.com/OpenVoxelStudios/CLI.git", branch: "main"
 
